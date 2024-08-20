@@ -1,22 +1,21 @@
 {
-    "name": "My Trips",
-    "short_name": "My Trips",
-    "icons": [
-      {
-        "src": "/img/icon-192.png",
-         "type": "image/png",
-        "sizes": "192x192"
-       
-      },
-      {
-        "src": "/img/icon-512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "theme_color": "#06092B",
-    "background_color": "#06092B",
-    "description": "A simple project starter to show my favorite spots in the world.",
-    "start_url": "/",
-    "display": "fullscreen"
-  }
+  "name": "My Trips",
+  "short_name": "My Trips",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#06092B",
+  "background_color": "#06092B",
+  "description": "A simple project starter to show my favorite spots in the world.",
+  "start_url": "/",
+  "display": "fullscreen"
+}
