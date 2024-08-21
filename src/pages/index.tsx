@@ -1,21 +1,16 @@
+import LinkWrapper from '@/components/LinkWrapper'
 import dynamic from 'next/dynamic'
+import { InfoOutline } from '@styled-icons/typicons/InfoOutline'
 
 const Map = dynamic(() => import('components/Map'), { ssr: false })
 
 export default function Home() {
   return (
-  <Map 
-    places={[
-      {
-        id: '2',
-        name: 'Seoul',
-        slug: 'seoul',
-        location: {
-          latitude: 37.532600,
-          longitude: 127.024612
-        }
-      }
-    ]}
-  />
+    <>
+    <LinkWrapper href="/about">
+      <InfoOutline size={32} aria-label="About"/>
+    </LinkWrapper>
+  <Map/>
+  </>
   )
 }
