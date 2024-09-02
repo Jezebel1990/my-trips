@@ -59,6 +59,7 @@ query getPlaceBySlug($slug: String!) {
     }
     description {
       html
+      text
     }
     gallery {
       url
