@@ -66,7 +66,10 @@ export default function PlacesTemplate({ place}: PlacesTemplateProps) {
        <S.Wrapper>
         <S.Container>
          <S.Heading>{place.name}</S.Heading>
-         <S.Body dangerouslySetInnerHTML={{ __html: place.description?.html }}/>
+
+         <S.Body 
+         dangerouslySetInnerHTML={{ __html: place.description?.html || '' }}
+         />
     <S.Gallery>
        {place.gallery.map((image, index) => (
         <Image key={`photo-${index}`} 

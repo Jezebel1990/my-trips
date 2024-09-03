@@ -35,6 +35,7 @@ return { paths, fallback: true }
 
  if (!place) return { notFound: true}
   return {
+    revalidate: 5,
     props: {
       place
     }
