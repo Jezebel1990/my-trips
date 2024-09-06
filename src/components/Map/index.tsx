@@ -38,7 +38,7 @@ const CustomTileLayer = () => {
 }
 
 const markerIcon = new L.Icon({
-  iconUrl: 'img/luggage.png',
+  iconUrl: 'img/suitcase.png',
   iconSize: [40, 40],
   iconAnchor: [20, 40],
   popupAnchor: [0, -40]
